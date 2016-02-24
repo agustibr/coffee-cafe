@@ -1,3 +1,8 @@
+---
+
+---
+@charset "utf-8";
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   padding: 0;
@@ -61,7 +66,7 @@ footer {
 
 section.hero {
   color: #fff;
-  background-image: url('/images/bg.jpg');
+  background-image: url('{{ site.baseurl }}/images/bg.jpg');
   background-size: cover;
 }
 
